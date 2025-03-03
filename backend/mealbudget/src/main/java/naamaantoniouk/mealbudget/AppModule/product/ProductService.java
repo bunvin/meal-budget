@@ -9,6 +9,4 @@ public interface ProductService {
     void deleteProduct(int id) throws Exception;
     List<Product>getAllProducts() throws Exception;
 
-    //filters
-
 }
