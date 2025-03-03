@@ -21,26 +21,26 @@ public class ProductServiceImp implements ProductService{
     }
 
     @Override
-    public Product getSingleProduct(int id) throws Exception {
+    public Product getSingleProduct(int id) throws AppException {
         return this.productRepository.findById(id)
                 .orElseThrow(() -> new AppException(ProductError.PRODUCT_NOT_FOUND));
     }
 
     @Override
-    public void updateProduct(int id, Product product) throws Exception {
+    public void updateProduct(int id, Product product) throws AppException {
         Product productDb = this.getSingleProduct(id);
         product.setId(productDb.getId());
         this.productRepository.save(product);
     }
 
     @Override
-    public void deleteProduct(int id) throws Exception {
+    public void deleteProduct(int id) throws AppException {
         Product productDb = this.getSingleProduct(id);
         this.productRepository.deleteById(productDb.getId());
     }
 
     @Override
-    public List<Product> getAllProducts() throws Exception {
+    public List<Product> getAllProducts() {
         return this.productRepository.findAll();
     }
 
