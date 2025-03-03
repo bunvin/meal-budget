@@ -1,9 +1,12 @@
 package naamaantoniouk.mealbudget.AppModule.product;
 
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
+@Service
 public interface ProductService {
-    Product addProduct(Product peoduct) throws Exception;
+    Product addProduct(Product product) throws Exception;
     Product getSingleProduct(int id) throws Exception;
     void updateProduct(int id, Product product) throws Exception;
     void deleteProduct(int id) throws Exception;
