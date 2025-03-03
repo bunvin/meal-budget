@@ -1,0 +1,1997 @@
+[
+    {
+        "name": "עגבניה",
+        "selling_method": "BY_WEIGHT",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניה טרייה ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניה  ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מלפפון",
+        "selling_method": "BY_WEIGHT",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז מלפפונים",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז מלפפונים",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בצל יבש",
+        "selling_method": "BY_WEIGHT",
+        "price": 6.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בצל יבש ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 6.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל אדום",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל אדום ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל צהוב",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל צהוב ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל כתום",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל כתום ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בטטה",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בטטות ארוזות",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בצל יבש אדום",
+        "selling_method": "BY_WEIGHT",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בצל יבש אדום ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מלון",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קיווי",
+        "selling_method": "BY_WEIGHT",
+        "price": 25.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אוכמניות טריות",
+        "selling_method": "BY_UNIT",
+        "price": 13.52,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פלפל חריף",
+        "selling_method": "BY_WEIGHT",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל חריף ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל ירוק בהיר",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל בהיר ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל ננסי",
+        "selling_method": "BY_UNIT",
+        "price": 4.5,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פלפלון סוויט בייט",
+        "selling_method": "BY_UNIT",
+        "price": 4.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פלפלון",
+        "selling_method": "BY_UNIT",
+        "price": 4.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פלפל ירוק כהה",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עלי רוקט שטופים",
+        "selling_method": "BY_UNIT",
+        "price": 7.93,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי תרד בייבי",
+        "selling_method": "BY_UNIT",
+        "price": 5.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי בייבי",
+        "selling_method": "BY_UNIT",
+        "price": 9.08,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי תרד בייבי שטופים",
+        "selling_method": "BY_UNIT",
+        "price": 4.48,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי חסה סלנובה שטופים",
+        "selling_method": "BY_UNIT",
+        "price": 7.45,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי בייבי שטופים לאכילה",
+        "selling_method": "BY_UNIT",
+        "price": 5.63,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "לקט סלנובה ועלי בייבי",
+        "selling_method": "BY_UNIT",
+        "price": 7.45,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי כוסברה שטופים",
+        "selling_method": "BY_UNIT",
+        "price": 15.8,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי פטרוזיליה שטופים",
+        "selling_method": "BY_UNIT",
+        "price": 15.8,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי שמיר שטופים",
+        "selling_method": "BY_UNIT",
+        "price": 15.8,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה לבבות קיסר",
+        "selling_method": "BY_UNIT",
+        "price": 4.25,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה רומית הידרופונית",
+        "selling_method": "BY_UNIT",
+        "price": 9.31,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה לאליק הידרופונית",
+        "selling_method": "BY_UNIT",
+        "price": 7.84,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה עגולה ארוזה",
+        "selling_method": "BY_UNIT",
+        "price": 3.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה סלנובה הידרופונית",
+        "selling_method": "BY_UNIT",
+        "price": 9.31,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה סלנובה הידרופונית",
+        "selling_method": "BY_UNIT",
+        "price": 9.94,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חסה סלנובה",
+        "selling_method": "BY_UNIT",
+        "price": 9.31,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "לבבות חסה קיסר חסלט-מהדר",
+        "selling_method": "BY_UNIT",
+        "price": 5.96,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "כרוב לבן כשר",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עלי מיקרו בזיל",
+        "selling_method": "BY_UNIT",
+        "price": 13.63,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי מיקרו רוקט",
+        "selling_method": "BY_UNIT",
+        "price": 13.63,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עלי מיקרו פטרוזיליה",
+        "selling_method": "BY_UNIT",
+        "price": 18.17,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מיקס עלי מיקרו",
+        "selling_method": "BY_UNIT",
+        "price": 13.63,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תמר מגהול סופר עסיסי",
+        "selling_method": "BY_UNIT",
+        "price": 5.98,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "בננה",
+        "selling_method": "BY_WEIGHT",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בננה ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אשכול בננה",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח עץ פינקריספי",
+        "selling_method": "BY_WEIGHT",
+        "price": 22.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרוב אדום",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלורית",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פומלית",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "חציל בלדי",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אשכולית אדומה",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אשכולית לבנה",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פומלה אדומה",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה לבן ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 5.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה אדום ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 6.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "גזר ארוז שופרסל",
+        "selling_method": "BY_PACKAGE",
+        "price": 5.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרוב לבן",
+        "selling_method": "BY_PACKAGE",
+        "price": 6.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פטרוזיליה סגירה חוזרת",
+        "selling_method": "BY_UNIT",
+        "price": 6.56,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שמיר סגירה חוזרת",
+        "selling_method": "BY_UNIT",
+        "price": 7.38,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוח עץ סמיט",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוחים סמיט",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח עץ סמיט",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוחים סטרקינג",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח עץ פינקליידי",
+        "selling_method": "BY_WEIGHT",
+        "price": 22.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוחים פינקליידי",
+        "selling_method": "BY_PACKAGE",
+        "price": 22.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח עץ מוזהב",
+        "selling_method": "BY_WEIGHT",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוחים מוזהב",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוח עץ זהוב",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שום יבוא מובחר",
+        "selling_method": "BY_UNIT",
+        "price": 3.63,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שום פנינה",
+        "selling_method": "BY_UNIT",
+        "price": 6.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי תמר",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי מידיפלם",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי אשכולות מובחר",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי יובל ליקופן",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי וויטני",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מיקס עגבניה שרי",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי מנומר",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי כתום",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי צהוב",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי בודד",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי מיקס טריו",
+        "selling_method": "BY_UNIT",
+        "price": 2.37,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוז ברשת למיץ",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שורש סלרי",
+        "selling_method": "BY_UNIT",
+        "price": 3.29,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "לימון ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "לימון",
+        "selling_method": "BY_WEIGHT",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל רומירו אדום אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 2.59,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פלפל רמירו אדום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 25.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל רמירו כתום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 25.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניה שרי לובלו",
+        "selling_method": "BY_UNIT",
+        "price": 4.33,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שרי לובלו ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 3.98,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוח עץ גאלה",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוחים גאלה",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוחים טסה",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "חציל",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אבוקדו טרי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אבוקדו",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קלמנטינה ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קלמנטינה",
+        "selling_method": "BY_WEIGHT",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוז",
+        "selling_method": "BY_WEIGHT",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוז טרי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרובית",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קישואים מובחר",
+        "selling_method": "BY_WEIGHT",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קישוא טרי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מלפפון אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז מלפפון אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל סוויט אורגני",
+        "selling_method": "BY_UNIT",
+        "price": 5.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מארז גזר מובחר אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז קישוא כהה אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז פלפל אדום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל אדום אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרוב לבן אורגני ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרוב לבן אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז עגבניות אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניה אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניות שרי אדום אורגני",
+        "selling_method": "BY_UNIT",
+        "price": 3.46,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניה שרי ליקופן ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 3.46,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניות שרי אדום אורגני",
+        "selling_method": "BY_UNIT",
+        "price": 3.46,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מארז אשכולות שרי אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 30.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניות שרי אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 30.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "ג'ינג'ר אורגני",
+        "selling_method": "BY_UNIT",
+        "price": 9.56,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מארז שומר אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שומר אורגני במשקל",
+        "selling_method": "BY_WEIGHT",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז בצל יבש אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז בצל יבש אורגני יבוא",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בצל יבש אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בצל יבש אורגני יבוא",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז עגבניות מגי אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 28.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז פלפל צהוב אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל צהוב אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז חציל אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "חציל אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז פלפל כתום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל כתום אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז קולורבי אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קולורבי אורגני במשקל",
+        "selling_method": "BY_WEIGHT",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז סלק אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "סלק אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז כרובית אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז כרובית אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרוב אדום אורגני ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז קישוא בהיר אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז שום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 99.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז בצל אדום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בטטה אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בטטה אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוחי אדמה אורגני יבוא",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניה תמר אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 15.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז אבוקדו אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אבוקדו אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלעת ערמונים אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 24.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלעת ערמונים אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 24.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלעת אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 20.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלעת ארוזה במשקל אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 20.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קישוא כהה זוקוני אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל רמירו צהוב אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 25.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלורית אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קישוא בהיר אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה אדום אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שום יבש אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.99,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "כרוב אדום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 16.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלעת ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "דלעת ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מלפפון בייבי",
+        "selling_method": "BY_UNIT",
+        "price": 3.11,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מלפפון בייבי",
+        "selling_method": "BY_UNIT",
+        "price": 3.63,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מלפפון קורנישון",
+        "selling_method": "BY_UNIT",
+        "price": 3.11,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוח אדמה גורמה לבן",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה בייבי גורמה",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס ספדונה",
+        "selling_method": "BY_WEIGHT",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס ספדונה ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס ישראלי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס אנג'ו",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס בלניקיליה",
+        "selling_method": "BY_WEIGHT",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אפרסמון",
+        "selling_method": "BY_WEIGHT",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז אפרסמון",
+        "selling_method": "BY_PACKAGE",
+        "price": 19.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "סלק",
+        "selling_method": "BY_WEIGHT",
+        "price": 5.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "סלק טרי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 5.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פטריות צמד פורטובלה ושמפ",
+        "selling_method": "BY_UNIT",
+        "price": 4.74,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות צמד שמפניון",
+        "selling_method": "BY_UNIT",
+        "price": 4.74,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "צמד פטריות פורטובלה ושמפ",
+        "selling_method": "BY_UNIT",
+        "price": 4.74,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "קולורבי",
+        "selling_method": "BY_WEIGHT",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קולורבי טרי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "כרובית ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "ברוקולי ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 3.4,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "ברוקולי ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 3.4,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "ברוקולית",
+        "selling_method": "BY_UNIT",
+        "price": 5.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פומלה לבנה",
+        "selling_method": "BY_PACKAGE",
+        "price": 8.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "לימון אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז לימון אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוז אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוז אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קלמנטינה אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 1.49,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "קלמנטינה ארוז אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פומלית אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 10.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז פומלית אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 10.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פומלה  אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 15.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פומלה אורגנית במשקל מארז",
+        "selling_method": "BY_PACKAGE",
+        "price": 15.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שומר טרי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שומר",
+        "selling_method": "BY_WEIGHT",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תות שדה ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 4.9,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תות שדה ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 4.9,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תות שדה ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 4.9,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תות שדה ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 4.9,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עגבניות מגי ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 17.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "עגבניה מגי מובחרת ארוזה",
+        "selling_method": "BY_PACKAGE",
+        "price": 17.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "שום קלוף בקופסא",
+        "selling_method": "BY_UNIT",
+        "price": 6.79,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שיני שום קלופות",
+        "selling_method": "BY_UNIT",
+        "price": 6.81,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שום קלוף",
+        "selling_method": "BY_UNIT",
+        "price": 4.18,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שיני שום",
+        "selling_method": "BY_UNIT",
+        "price": 4.18,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שיני שום קלופות",
+        "selling_method": "BY_UNIT",
+        "price": 4.18,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שום קלוף בצנצנת",
+        "selling_method": "BY_UNIT",
+        "price": 6.41,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שיני שום קלוף",
+        "selling_method": "BY_UNIT",
+        "price": 6.41,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "צנונית",
+        "selling_method": "BY_UNIT",
+        "price": 1.73,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תירס ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "סלק מבושל בווואקום",
+        "selling_method": "BY_UNIT",
+        "price": 1.78,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "סלק אדום מבושל אורגני",
+        "selling_method": "BY_UNIT",
+        "price": 3.58,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "סלק אדום וואקום-מהדרין",
+        "selling_method": "BY_UNIT",
+        "price": 1.98,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "סלק מבושל",
+        "selling_method": "BY_UNIT",
+        "price": 1.78,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוח אדמה קטן ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 7.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה אדומים גורמה",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח אדמה קינגסמן יפאן",
+        "selling_method": "BY_PACKAGE",
+        "price": 9.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פטריות שמפניון",
+        "selling_method": "BY_UNIT",
+        "price": 4.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות שמפניון",
+        "selling_method": "BY_UNIT",
+        "price": 4.95,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות שמפניון למילוי",
+        "selling_method": "BY_WEIGHT",
+        "price": 39.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פטריות חורש",
+        "selling_method": "BY_WEIGHT",
+        "price": 39.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פטריות שמפניון חסלט-מהדר",
+        "selling_method": "BY_UNIT",
+        "price": 4.76,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "קישוא זוקיני ארוז מובחר",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "חטיפוני גזר",
+        "selling_method": "BY_UNIT",
+        "price": 6.08,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "חטיפוני גזר",
+        "selling_method": "BY_UNIT",
+        "price": 3.97,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שורש גינגר טרי ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 6.36,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שורש גינגר טרי ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 6.36,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "שורש כורכום",
+        "selling_method": "BY_UNIT",
+        "price": 13.25,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוח עץ יונתן",
+        "selling_method": "BY_WEIGHT",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "בייבי בטטה",
+        "selling_method": "BY_PACKAGE",
+        "price": 10.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס אדום",
+        "selling_method": "BY_WEIGHT",
+        "price": 17.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס אדום ארוז",
+        "selling_method": "BY_PACKAGE",
+        "price": 17.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פטריות שי-מג'י לבנות",
+        "selling_method": "BY_UNIT",
+        "price": 9.27,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות שי-מג'י חומות",
+        "selling_method": "BY_UNIT",
+        "price": 9.27,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות דואט שימג'י",
+        "selling_method": "BY_UNIT",
+        "price": 8.97,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות מלך היער",
+        "selling_method": "BY_UNIT",
+        "price": 11.27,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות שינוקי",
+        "selling_method": "BY_UNIT",
+        "price": 11.27,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות יער טריות",
+        "selling_method": "BY_UNIT",
+        "price": 8.18,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תפוח אדמה למיקרו",
+        "selling_method": "BY_UNIT",
+        "price": 1.41,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "אפונת שלג",
+        "selling_method": "BY_UNIT",
+        "price": 12.23,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "כרובית פיורטי",
+        "selling_method": "BY_UNIT",
+        "price": 3.98,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "באק צ'וי הידרופוני",
+        "selling_method": "BY_UNIT",
+        "price": 8.45,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "בננה אורגנית",
+        "selling_method": "BY_WEIGHT",
+        "price": 18.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפו\"ע  פינק ליידי אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 30.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מארז תפוז אדום אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "תפוח גאלה אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 24.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אשכולית אדומה אורגנית",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "מלון אורגני",
+        "selling_method": "BY_PACKAGE",
+        "price": 15.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "קיווי אורגני",
+        "selling_method": "BY_WEIGHT",
+        "price": 39.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "פלפל מתוק ארוז",
+        "selling_method": "BY_UNIT",
+        "price": 2.98,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פלפל שישקה מתוק",
+        "selling_method": "BY_WEIGHT",
+        "price": 14.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "ענב אדום מובחר",
+        "selling_method": "BY_UNIT",
+        "price": 3.98,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פטריות סטייק פורטובלה",
+        "selling_method": "BY_UNIT",
+        "price": 4.97,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "בצלצלי שאלוט",
+        "selling_method": "BY_UNIT",
+        "price": 4.54,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "ארטישוק",
+        "selling_method": "BY_PACKAGE",
+        "price": 12.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "לבבות חסה קראנץ",
+        "selling_method": "BY_UNIT",
+        "price": 7.84,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "ערמונים",
+        "selling_method": "BY_WEIGHT",
+        "price": 1.99,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "אנדיב / עולש",
+        "selling_method": "BY_UNIT",
+        "price": 7.68,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "תערובת שתילה  5 ליטר",
+        "selling_method": "BY_UNIT",
+        "price": 1.99,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עציץ בד כחול 8 ליטר",
+        "selling_method": "BY_UNIT",
+        "price": 19.88,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עציץ בד אפור 8 ליטר",
+        "selling_method": "BY_UNIT",
+        "price": 19.88,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עציץ בד שחור 8 ליטר",
+        "selling_method": "BY_UNIT",
+        "price": 19.88,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "עציץ בד חום 8 ליטר",
+        "selling_method": "BY_UNIT",
+        "price": 19.88,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "דשן אורגני מאצות ים",
+        "selling_method": "BY_UNIT",
+        "price": 61.67,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "פומלה קלופה",
+        "selling_method": "BY_UNIT",
+        "price": 6.76,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "מלון ג'סטין",
+        "selling_method": "BY_PACKAGE",
+        "price": 11.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אגס קוסטיה",
+        "selling_method": "BY_WEIGHT",
+        "price": 13.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "אספרגוס ירוק",
+        "selling_method": "BY_UNIT",
+        "price": 8.23,
+        "unit": "gr",
+        "quantity": 100
+    },
+    {
+        "name": "גויאבות",
+        "selling_method": "BY_WEIGHT",
+        "price": 24.9,
+        "unit": "kg",
+        "quantity": 1
+    },
+    {
+        "name": "ברוקולי מהדרין - חסל\"ט",
+        "selling_method": "BY_WEIGHT",
+        "price": 29.9,
+        "unit": "kg",
+        "quantity": 1
+    }
+]
