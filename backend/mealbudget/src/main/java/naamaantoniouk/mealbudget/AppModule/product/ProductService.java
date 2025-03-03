@@ -13,4 +13,6 @@ public interface ProductService {
     void deleteProduct(int id) throws AppException;
     List<Product>getAllProducts() throws AppException;
 
+    public List<Product> saveAllProducts(List<Product> products);
+
 }

@@ -19,8 +19,9 @@ public class Product {
     private String unit;
     private int quantity; //how many to price
     private double price_per_gr;
+    private String selling_method;
     private String img;
-    
+
     //no args
     public Product() {
     }
@@ -65,6 +66,11 @@ public class Product {
             return this;
         }
 
+        public Builder selling_method(String selling_method) {
+            product.selling_method = selling_method;
+            return this;
+        }
+
         public Builder img(String img) {
             product.img = img;
             return this;
@@ -96,6 +102,7 @@ public class Product {
                 ", unit='" + unit + '\'' +
                 ", quantity=" + quantity +
                 ", price_per_gr=" + price_per_gr +
+                ", selling_method='" + selling_method + '\'' +
                 ", img='" + img + '\'' +
                 '}';
     }
@@ -133,12 +140,28 @@ public class Product {
         this.unit = unit;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
     public double getPrice_per_gr() {
         return price_per_gr;
     }
 
     public void setPrice_per_gr(double price_per_gr) {
         this.price_per_gr = price_per_gr;
+    }
+
+    public String getSelling_method() {
+        return selling_method;
+    }
+
+    public void setSelling_method(String selling_method) {
+        this.selling_method = selling_method;
     }
 
     public String getImg() {

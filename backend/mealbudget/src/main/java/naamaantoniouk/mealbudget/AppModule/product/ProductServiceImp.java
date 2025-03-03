@@ -44,4 +44,10 @@ public class ProductServiceImp implements ProductService{
         return this.productRepository.findAll();
     }
 
+    @Override
+    public List<Product> saveAllProducts(List<Product> products) {
+        List<Product> fromDb = this.productRepository.saveAll(products);
+        return fromDb;
+    }
+
 }
