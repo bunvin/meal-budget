@@ -1,9 +1,10 @@
 package naamaantoniouk.mealbudget.AppModule.product;
 
-import naamaantoniouk.mealbudget.ErrorHandeling.AppException;
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import naamaantoniouk.mealbudget.ErrorHandeling.AppException;
 
 @Service
 public interface ProductService {
@@ -14,5 +15,7 @@ public interface ProductService {
     List<Product>getAllProducts() throws AppException;
 
     public List<Product> saveAllProducts(List<Product> products);
+    public List<Product> getProductByName(String name);
 
+    public void updateDBfromJson();
 }
