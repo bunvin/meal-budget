@@ -1,0 +1,11 @@
+.card {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 16px;
+    font-family: Arial, sans-serif;
+    width: 250px;
+  }

@@ -11,8 +11,8 @@ function Routing(): JSX.Element {
             <Routes>
                 <Route path="/main" element={<Main />}/>
                 <Route path="/" element={<Navigate to="/main"/>}/>
-                <Route path="/task-list" element={<IngredientsList />}/>
-                <Route path="/task-details/:id?" element={<IngredientsDetails />}/>
+                <Route path="/ingredient-list" element={<IngredientsList />}/>
+                <Route path="/ingredient-details/:id?" element={<IngredientsDetails />}/>
 =            </Routes>
         </div>
     );

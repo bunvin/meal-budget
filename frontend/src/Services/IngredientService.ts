@@ -7,22 +7,22 @@ class IngredientService {
 
     isFetch: boolean = false;
 
-    async getTaskList(isForceFetch: boolean = false): Promise<Ingredient[]> {
+    async getIngredientList(isForceFetch: boolean = false): Promise<Ingredient[]> {
         if (!this.isFetch || isForceFetch === true) {
-            const response = await axios.get<Ingredient[]>(appConfig.apiAddress + '/product');
+            const response = await axios.get<Ingredient[]>(appConfig.apiAddress + '/product/all');
             ingredientStore.dispatch({ type: IngredientActionType.GetIngredients, payload: response.data });
             this.isFetch = true;
         }
         return ingredientStore.getState().ingredientList;
     }
 
-    async addTask(ingredient: Ingredient): Promise<Ingredient> {
+    async addIngredient(ingredient: Ingredient): Promise<Ingredient> {
         const response = await axios.post<Ingredient>(appConfig.apiAddress + '/product', ingredient);
         ingredientStore.dispatch({ type: IngredientActionType.AddIngredient, payload: response.data });
         return response.data;
     }
 
-    async deleteTask(id: number): Promise<void> {
+    async deleteIngredient(id: number): Promise<void> {
         await axios.delete<Ingredient>(appConfig.apiAddress + '/product/' + id);
         ingredientStore.dispatch({ type: IngredientActionType.DeleteIngredient, payload: id });
     }

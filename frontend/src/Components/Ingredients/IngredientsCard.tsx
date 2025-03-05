@@ -1,9 +1,16 @@
+import Ingredient from '../../Models/Ingredient';
 import './IngredientsCard.css';
 
-function IngredientsCard(): JSX.Element {
+function IngredientsCard(ingredient:Ingredient): JSX.Element {
     return (
         <div className='IngredientsCard'>
-            <h1>IngredientsCard</h1>
+            <div className='card'>
+                <p>Name: {ingredient.name}</p>
+                <p>Price: {ingredient.price}</p>
+                <p>unit: {ingredient.id}</p>
+                <p>price per gr: {ingredient.price_per_gr}</p>
+                
+            </div>
         </div>
     );
 }
