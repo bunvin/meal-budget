@@ -1,6 +1,7 @@
 import axios from "axios"
 import appConfig from "../AppConfig/AppConfig";
 import { IngredientActionType, ingredientStore } from "../State/IngredientState";
+import Ingredient from "../Models/Ingredient";
 
 class IngredientService {
 
@@ -27,7 +28,7 @@ class IngredientService {
     }
 
     async updateIngredient(ingredient: Ingredient): Promise<void> {
-        await axios.put<Ingredient>(appConfig.apiAddress + '/task/' + ingredient.id!, ingredient);
+        await axios.put<Ingredient>(appConfig.apiAddress + '/product/' + ingredient.id!, ingredient);
         ingredientStore.dispatch({ type: IngredientActionType.UpdateIngredient, payload: ingredient });
     }
 

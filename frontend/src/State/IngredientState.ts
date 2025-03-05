@@ -1,4 +1,5 @@
 import { createStore } from "redux";
+import Ingredient from "../Models/Ingredient";
 
 
 export class IngredientState {

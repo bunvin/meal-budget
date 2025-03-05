@@ -2,6 +2,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Menu from './Menu';
 import './Layout.css';
+import Routing from '../Routing/Routing';
 
 function Layout(): JSX.Element {
     return (
@@ -14,7 +15,7 @@ function Layout(): JSX.Element {
                     <Menu />
                 </menu>
                 <main>
-                  {/* <Routing /> */}
+                  <Routing />
                 </main>
             </div>
             <footer>

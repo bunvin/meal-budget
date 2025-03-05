@@ -8,3 +8,4 @@ interface Ingredient {
     img?: string,
 
 }
+export default Ingredient;

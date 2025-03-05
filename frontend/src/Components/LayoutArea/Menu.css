@@ -1,0 +1,40 @@
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.Menu > .navlink {
+    color: blue;
+    text-decoration: none;
+}
+
+.styled-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    position: relative;
+  }
+  
+  .styled-link::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+  }
+  
+  .styled-link:hover {
+    color: #2980b9;
+  }
+  
+  .styled-link:hover::after {
+    width: 100%;
+  }
