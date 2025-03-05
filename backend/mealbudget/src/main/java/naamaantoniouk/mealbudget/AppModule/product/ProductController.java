@@ -1,10 +1,19 @@
 package naamaantoniouk.mealbudget.AppModule.product;
 
-import naamaantoniouk.mealbudget.ErrorHandeling.AppException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import naamaantoniouk.mealbudget.ErrorHandeling.AppException;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
@@ -13,27 +22,27 @@ public class ProductController {
     @Autowired
     private ProductServiceImp productService;
 
-    @PostMapping("/id")
+    @PostMapping("product/id")
     public Product addProduct(@RequestBody Product product) throws AppException {
         return this.productService.addProduct(product);
     };
 
-    @PutMapping("/{id}")
+    @PutMapping("product/{id}")
     public void updateProduct(@RequestBody Product product, @PathVariable int id) throws AppException {
         this.productService.updateProduct(id, product);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("product/{id}")
     public void deleteProduct(@PathVariable int id) throws AppException {
         this.productService.deleteProduct(id);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("product/{id}")
     public Product getSingleProduct(@PathVariable int id) throws AppException {
         return this.productService.getSingleProduct(id);
     }
 
-    @GetMapping("/all")
+    @GetMapping("product/all")
     public List<Product> getAllProducts() {
         return this.productService.getAllProducts();
     }
