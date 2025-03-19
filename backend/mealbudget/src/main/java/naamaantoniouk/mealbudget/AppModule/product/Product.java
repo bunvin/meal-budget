@@ -1,4 +1,7 @@
 package naamaantoniouk.mealbudget.AppModule.product;
+import naamaantoniouk.mealbudget.AppModule.product.Category;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -20,7 +23,9 @@ public class Product {
     private int quantity; //how many to price
     private double price_per_gr;
     private String selling_method;
-    private String img;
+    private String image_url;
+    private int min_gr_unit = 100;
+    private Category category;
 
     //no args
     public Product() {
@@ -33,6 +38,22 @@ public class Product {
         } else if (this.unit.equals("gr")) {
             this.price_per_gr = this.price / this.quantity;
         }
+    }
+
+    public int getMin_gr_unit() {
+        return min_gr_unit;
+    }
+
+    public void setMin_gr_unit(int min_gr_unit) {
+        this.min_gr_unit = min_gr_unit;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
     //builder
@@ -71,8 +92,18 @@ public class Product {
             return this;
         }
 
-        public Builder img(String img) {
-            product.img = img;
+        public Builder image_url(String img) {
+            product.image_url = img;
+            return this;
+        }
+
+        public Builder min_gr_unit(int weight){
+            product.min_gr_unit = weight;
+            return this;
+        }
+
+        public Builder category(Category category){
+            product.category = category;
             return this;
         }
 
@@ -96,14 +127,15 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "id=" + id +
+                "Category: " + category +        
+                ",id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ", unit='" + unit + '\'' +
                 ", quantity=" + quantity +
-                ", price_per_gr=" + price_per_gr +
+                ", price_per_100gr=" + price_per_gr*100 +
                 ", selling_method='" + selling_method + '\'' +
-                ", img='" + img + '\'' +
+                ", image_url='" + image_url + '\'' +
                 '}';
     }
 
@@ -164,11 +196,13 @@ public class Product {
         this.selling_method = selling_method;
     }
 
+    @JsonProperty("image_url")
     public String getImg() {
-        return img;
+        return image_url;
     }
-
+    
+    @JsonProperty("image_url")
     public void setImg(String img) {
-        this.img = img;
+        this.image_url = img;
     }
 }
