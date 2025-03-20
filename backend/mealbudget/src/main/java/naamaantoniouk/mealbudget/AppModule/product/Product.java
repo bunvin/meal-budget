@@ -1,13 +1,16 @@
 package naamaantoniouk.mealbudget.AppModule.product;
-import naamaantoniouk.mealbudget.AppModule.product.Category;
+import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.PreUpdate;
 
 @Entity
 public class Product {
@@ -25,10 +28,21 @@ public class Product {
     private String selling_method;
     private String image_url;
     private int min_gr_unit = 100;
+
+    @Enumerated(EnumType.STRING)
     private Category category;
+
+    @Column(updatable = false)
+    private LocalDateTime createDateTime = LocalDateTime.now();
+    private LocalDateTime modifiedDateTime = LocalDateTime.now();
 
     //no args
     public Product() {
+    }
+
+    @PreUpdate
+    protected void onUpdate() {
+        this.modifiedDateTime = LocalDateTime.now();
     }
 
     // Calculate price per gram >> when building the object
@@ -108,6 +122,7 @@ public class Product {
         }
 
         public Product build() {
+            //validate before calculation
             if (product.price <= 0) {
                 throw new IllegalStateException("Price must be greater than zero.");
             }
@@ -204,5 +219,13 @@ public class Product {
     @JsonProperty("image_url")
     public void setImg(String img) {
         this.image_url = img;
+    }
+        
+    public LocalDateTime getCreateDateTime() {
+        return createDateTime;
+    }
+
+    public LocalDateTime getModifiedDateTime() {
+        return modifiedDateTime;
     }
 }
