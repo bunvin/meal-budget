@@ -22,13 +22,13 @@ public class ProductController {
     @Autowired
     private ProductServiceImp productService;
 
-    @PostMapping("product/id")
-    public Product addProduct(@RequestBody Product product) throws AppException {
+    @PostMapping("product/{id}")
+    public ProductDTO addProduct(@RequestBody ProductDTO product) throws AppException {
         return this.productService.addProduct(product);
     };
 
     @PutMapping("product/{id}")
-    public void updateProduct(@RequestBody Product product, @PathVariable int id) throws AppException {
+    public void updateProduct(@RequestBody ProductDTO product, @PathVariable int id) throws AppException {
         this.productService.updateProduct(id, product);
     }
 
@@ -38,12 +38,12 @@ public class ProductController {
     }
 
     @GetMapping("product/{id}")
-    public Product getSingleProduct(@PathVariable int id) throws AppException {
+    public ProductDTO getSingleProduct(@PathVariable int id) throws AppException {
         return this.productService.getSingleProduct(id);
     }
 
     @GetMapping("product/all")
-    public List<Product> getAllProducts() {
+    public List<ProductDTO> getAllProducts() {
         return this.productService.getAllProducts();
     }
 }

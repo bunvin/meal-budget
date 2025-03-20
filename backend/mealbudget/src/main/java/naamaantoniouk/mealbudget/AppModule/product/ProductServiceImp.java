@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -12,43 +14,54 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import jakarta.transaction.Transactional;
 import naamaantoniouk.mealbudget.ErrorHandeling.AppException;
 
 @Service
 public class ProductServiceImp implements ProductService{
     @Autowired
     private ProductRepository productRepository;
+    @Autowired
+    private ModelMapper modelMapper;
 
     @Override
-    public Product addProduct(Product product) throws AppException {
-        if(this.productRepository.existsById(product.getId())){
+    public ProductDTO addProduct(ProductDTO productDTO) throws AppException {
+        if(this.productRepository.existsById(productDTO.getId())){
             throw new AppException(ProductError.PRODUCT_ALREADY_EXIST);
         }
-        return this.productRepository.save(product);
+        Product product = modelMapper.map(productDTO, Product.class);
+        product = this.productRepository.save(product);
+        return modelMapper.map(product, ProductDTO.class);
     }
 
     @Override
-    public Product getSingleProduct(int id) throws AppException {
-        return this.productRepository.findById(id)
-                .orElseThrow(() -> new AppException(ProductError.PRODUCT_NOT_FOUND));
+    public ProductDTO getSingleProduct(int id) throws AppException {
+        Product productDB = this.productRepository.findById(id)
+                                                        .orElseThrow(() -> new AppException(ProductError.PRODUCT_NOT_FOUND));
+        return modelMapper.map(productDB, ProductDTO.class);
     }
 
+    @Transactional
     @Override
-    public void updateProduct(int id, Product product) throws AppException {
-        Product productDb = this.getSingleProduct(id);
-        product.setId(productDb.getId());
+    public void updateProduct(int id, ProductDTO productDTO) throws AppException {
+        ProductDTO productDb = this.getSingleProduct(id);
+        productDTO.setId(productDb.getId());
+        Product product = modelMapper.map(productDTO, Product.class);
         this.productRepository.save(product);
     }
 
     @Override
     public void deleteProduct(int id) throws AppException {
-        Product productDb = this.getSingleProduct(id);
+        ProductDTO productDb = this.getSingleProduct(id);
         this.productRepository.deleteById(productDb.getId());
     }
 
     @Override
-    public List<Product> getAllProducts() {
-        return this.productRepository.findAll();
+    public List<ProductDTO> getAllProducts() {
+        List<Product> products = this.productRepository.findAll();
+        return products.stream()
+                   .map(product -> modelMapper.map(product, ProductDTO.class))
+                   .collect(Collectors.toList());
     }
 
     @Override
@@ -101,7 +114,11 @@ public class ProductServiceImp implements ProductService{
                         updatedProducts.add(existingProduct);
                     } else {
                         // Add as new product if not already in DB
-                        newProducts.add(product);
+                        // don't add if category is Vegtables
+                        if (product.getCategory() != Category.Vegetables){
+                            newProducts.add(product);
+                        }
+
                     }
                 } catch (Exception e) {
                     // Log error and continue with next product

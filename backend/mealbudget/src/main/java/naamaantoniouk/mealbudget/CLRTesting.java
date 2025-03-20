@@ -20,6 +20,6 @@ public class CLRTesting implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        productService.updateDBfromJson();
+        // productService.updateDBfromJson();
     }
 }

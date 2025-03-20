@@ -1,11 +1,10 @@
 interface Ingredient {
-    name: string;
-    price: number,
+    id: number,
+    name: string,
+    category: string,
+    price_per_gr: number,
     unit: string,
-    quantity: number,
-    price_per_gr?: number,
-    id?: number,
-    img?: string,
-
+    min_gr_unit: number,
+    image_url: string
 }
 export default Ingredient;

@@ -23,13 +23,17 @@ function IngredientsList(): JSX.Element {
         return () => subscription();//unsubscribe pre-destroy
     },[]);
 
+    function onDelete(id:number){ //get List updated state from Store 
+        setingredientList([...ingredientStore.getState().ingredientList]);
+    }
+
     return (
         <div className='IngredientsList'>
         
             {isLoading && <h1>Loading...</h1>}
             {!isLoading &&
             ingredientList.map(ingredient =>
-            <div key = {ingredient.id}><IngredientsCard {...ingredient}/>
+            <div key = {ingredient.id}><IngredientsCard ingredient={ingredient} onDelete = {onDelete} />
             </div>)}
     
         </div>
