@@ -14,5 +14,5 @@ public interface RecipeService {
     void deleteRecipe(int id) throws AppException;
     List<RecipeDTO>getAllRecipies() throws AppException;
 
-    double calcTotalNIS(int recipeId);
+    double calcTotalNIS(int recipeId) throws AppException;
 }

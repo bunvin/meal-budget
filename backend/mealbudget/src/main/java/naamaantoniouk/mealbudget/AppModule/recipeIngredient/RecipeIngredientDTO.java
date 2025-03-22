@@ -7,19 +7,23 @@ public class RecipeIngredientDTO {
     private int productId;
     private int amount;
     private String unit;
-
+    private double price_per_gr;
+    private String img;
+    
     // No-args constructor
     public RecipeIngredientDTO() {
     }
     
     // All-args constructor
-    public RecipeIngredientDTO(int id, String name, int recipeId, int productId, int amount, String unit) {
+    public RecipeIngredientDTO(int id, String name, int recipeId, int productId, int amount, String unit, double price_per_gr, String img) {
         this.id = id;
         this.name = name;
         this.recipeId = recipeId;
         this.productId = productId;
         this.amount = amount;
         this.unit = unit;
+        this.price_per_gr = price_per_gr;
+        this.img = img;
     }
 
     // Builder pattern
@@ -53,6 +57,16 @@ public class RecipeIngredientDTO {
 
         public Builder unit(String unit) {
             recipeIngredientDTO.unit = unit;
+            return this;
+        }
+        
+        public Builder price_per_gr(double price_per_gr) {
+            recipeIngredientDTO.price_per_gr = price_per_gr;
+            return this;
+        }
+        
+        public Builder img(String img) {
+            recipeIngredientDTO.img = img;
             return this;
         }
 
@@ -90,6 +104,14 @@ public class RecipeIngredientDTO {
         return unit;
     }
     
+    public double getPrice_per_gr() {
+        return price_per_gr;
+    }
+    
+    public String getImg() {
+        return img;
+    }
+    
     // Setters
     public void setId(int id) {
         this.id = id;
@@ -115,6 +137,14 @@ public class RecipeIngredientDTO {
         this.unit = unit;
     }
     
+    public void setPrice_per_gr(double price_per_gr) {
+        this.price_per_gr = price_per_gr;
+    }
+    
+    public void setImg(String img) {
+        this.img = img;
+    }
+    
     // toString method
     @Override
     public String toString() {
@@ -125,6 +155,8 @@ public class RecipeIngredientDTO {
                 ", productId=" + productId +
                 ", amount=" + amount +
                 ", unit='" + unit + '\'' +
+                ", price_per_gr=" + price_per_gr +
+                ", img='" + img + '\'' +
                 '}';
     }
 }
