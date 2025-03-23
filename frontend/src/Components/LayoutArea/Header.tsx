@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 import './Header.css';
-import { ingredientStore } from '../../State/IngredientState';
+import { productStore } from '../../State/ProductState';
 
 function Header(): JSX.Element {
 
-    let [ingredientNumber, setIngredientNumber] = useState<number>(ingredientStore.getState().ingredientList.length);
+    let [ingredientNumber, setIngredientNumber] = useState<number>(productStore.getState().productList.length);
 
     useEffect(() => {
 
-        const subscription = ingredientStore.subscribe(() => {
-            setIngredientNumber(ingredientStore.getState().ingredientList.length);
+        const subscription = productStore.subscribe(() => {
+            setIngredientNumber(productStore.getState().productList.length);
         });
 
         return () => subscription();

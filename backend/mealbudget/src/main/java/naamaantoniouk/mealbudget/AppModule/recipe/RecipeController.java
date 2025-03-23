@@ -1,6 +1,7 @@
 package naamaantoniouk.mealbudget.AppModule.recipe;
 
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -61,7 +62,7 @@ public class RecipeController {
         RecipeDTO recipeDTO = request.getRecipe();
         recipeDTO.setId(id);
         recipeService.updateRecipe(id, recipeDTO);
-//how to check if ingredients has being updated?
+//to check if ingredients has being updated?
         // Remove existing ingredients
         List<RecipeIngredientDTO> existingIngredients = recipeIngredientService.recipeIngredients(id);
         for (RecipeIngredientDTO existing : existingIngredients) {
@@ -102,12 +103,12 @@ public class RecipeController {
     }
 
     //UPDATE INGREDIENT AMOUNT
-    @PutMapping("/ingredients/{id}")
-    public ResponseEntity<RecipeIngredientDTO> updateIngredient(
+    @PutMapping("/ingredients/{id}/amount/{amount}")
+    public ResponseEntity<RecipeIngredientDTO> updateIngredientAmount(
             @PathVariable int id,
-            @RequestBody RecipeIngredientDTO ingredient) throws AppException {
+            @PathVariable int amount) throws AppException {
         
-        recipeIngredientService.updateRecipeIngredient(id, ingredient.getAmount());
+        recipeIngredientService.updateRecipeIngredient(id, amount);
         return ResponseEntity.ok(recipeIngredientService.getSingleRecipeIngredient(id));
     }
 

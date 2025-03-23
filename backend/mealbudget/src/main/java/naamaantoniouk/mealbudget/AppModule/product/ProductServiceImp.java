@@ -112,14 +112,8 @@ public class ProductServiceImp implements ProductService{
                         existingProduct.setImg(product.getImg());
                         
                         updatedProducts.add(existingProduct);
-                    } else {
-                        // Add as new product if not already in DB
-                        // don't add if category is Vegtables
-                        if (product.getCategory() != Category.Vegetables){
-                            newProducts.add(product);
-                        }
-
-                    }
+                    } 
+                    
                 } catch (Exception e) {
                     // Log error and continue with next product
                     System.err.println("Error processing product " + product.getName() + ": " + e.getMessage());

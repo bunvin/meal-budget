@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Main from "../Main/Main";
-import IngredientsList from "../Ingredients/IngredientsList";
-import IngredientsDetails from "../Ingredients/IngredientsDetails";
+import ProductsList from "../Product/ProductsList";
 
 
 
@@ -11,8 +10,7 @@ function Routing(): JSX.Element {
             <Routes>
                 <Route path="/main" element={<Main />}/>
                 <Route path="/" element={<Navigate to="/main"/>}/>
-                <Route path="/ingredient-list" element={<IngredientsList />}/>
-                <Route path="/ingredient-details/:id?" element={<IngredientsDetails />}/>
+                <Route path="/products-list" element={<ProductsList />}/>
 =            </Routes>
         </div>
     );
