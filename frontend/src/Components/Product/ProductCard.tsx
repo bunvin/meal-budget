@@ -18,13 +18,14 @@ function ProductCard(productProps:ProductProps): JSX.Element {
     }
 
     return (
-        <div className='IngredientsCard'>
+        <div className='ProductsCard'>
             <div className='card'>
                 <p>Name: {productProps.product.name} #{productProps.product.id}</p>
                 <p>Category: {productProps.product.category}</p>
                 <p>unit: {productProps.product.unit}</p>
                 <p>price per 100gr: {(productProps.product.price_per_gr * productProps.product.min_gr_unit).toFixed(2)}</p>
-                <img src={productProps.product.image_url} alt="Ingredient" /> <button className='remove' onClick={() => onRemove(productProps.product.id!)}>remove</button>
+                <img src={productProps.product.image_url} alt="Product" /> 
+                {/* <button className='remove' onClick={() => onRemove(productProps.product.id!)}>remove</button> */}
             </div>
         </div>
     );
