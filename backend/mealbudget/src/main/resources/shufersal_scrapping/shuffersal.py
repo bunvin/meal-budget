@@ -109,6 +109,10 @@ def extract_product_info(product, category):
                         return None
                     elif unit_raw == 'מ"ל':
                         unit = 'ml'
+                    elif unit_raw == 'ליטר':
+                        unit = 'liter'
+                        # Adjust quantity - 1 liter = 1000 ml
+                        quantity = quantity * 1000
                     else:
                         unit = unit_raw
                     

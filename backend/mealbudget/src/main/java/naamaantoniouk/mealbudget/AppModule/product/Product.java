@@ -51,6 +51,14 @@ public class Product {
             this.price_per_gr = this.price / (this.quantity * 1000);
         } else if (this.unit.equals("gr")) {
             this.price_per_gr = this.price / this.quantity;
+        } else if (this.unit.equals("ml")) {
+            // For ml, calculate price per ml (density of water ~1g/ml)
+            this.price_per_gr = this.price / this.quantity;
+        } else if (this.unit.equals("liter") || this.unit.equals("l")) {
+            // Convert liters to ml (1 liter = 1000 ml)
+            this.quantity = this.quantity * 1000;
+            this.unit = "ml";
+            this.price_per_gr = this.price / this.quantity;
         }
     }
 
