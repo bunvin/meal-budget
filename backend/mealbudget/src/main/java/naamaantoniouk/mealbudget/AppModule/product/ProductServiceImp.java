@@ -27,7 +27,7 @@ public class ProductServiceImp implements ProductService{
     @Override
     public ProductDTO addProduct(ProductDTO productDTO) throws AppException {
         if(this.productRepository.existsById(productDTO.getId())){
-            throw new AppException(ProductError.PRODUCT_ALREADY_EXIST);
+            throw ProductError.PRODUCT_ALREADY_EXIST.createException(productDTO.getId());
         }
         Product product = modelMapper.map(productDTO, Product.class);
         product = this.productRepository.save(product);
@@ -37,7 +37,7 @@ public class ProductServiceImp implements ProductService{
     @Override
     public ProductDTO getSingleProduct(int id) throws AppException {
         Product productDB = this.productRepository.findById(id)
-                                                        .orElseThrow(() -> new AppException(ProductError.PRODUCT_NOT_FOUND));
+                                                        .orElseThrow(() -> ProductError.PRODUCT_NOT_FOUND.createException(id));
         return modelMapper.map(productDB, ProductDTO.class);
     }
 
