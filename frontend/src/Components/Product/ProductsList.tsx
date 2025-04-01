@@ -13,7 +13,7 @@ function ProductsList(): JSX.Element {
     useEffect(() => {
         (async function getProductsList() {
             const productList: Product[] = await productService.getProductsList();
-            // setingredientList(ingredientList.slice(0,20));
+            // setProductList(productList.slice(0,20));
             setProductList([...productList]);
             setLoading(false);
             console.log("Done")

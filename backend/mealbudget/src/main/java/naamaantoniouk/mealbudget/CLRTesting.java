@@ -22,6 +22,6 @@ public class CLRTesting implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         webscrapperScheduler.runPythonScriptAndUpdateDB();
-       productService.updateDBfromJson();
+        productService.updateDBfromJson();
     }
 }

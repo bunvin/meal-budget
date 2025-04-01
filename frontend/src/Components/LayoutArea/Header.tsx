@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Header.css';
 import { productStore } from '../../State/ProductState';
+import { NavLink } from 'react-router-dom';
 
 function Header(): JSX.Element {
 
@@ -19,6 +20,10 @@ function Header(): JSX.Element {
     return (
         <div className='Header'>
             <h1>Header - {ingredientNumber}</h1>
+
+            <div className='menu'>
+
+            </div>
         </div>
     );
 }

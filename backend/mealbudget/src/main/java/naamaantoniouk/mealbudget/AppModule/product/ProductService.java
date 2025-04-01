@@ -14,6 +14,8 @@ public interface ProductService {
     void deleteProduct(int id) throws AppException;
     List<ProductDTO>getAllProducts() throws AppException;
 
+    //filters get allproducts by category name
+
     public List<Product> saveAllProducts(List<Product> products);
     public List<Product> getProductByName(String name);
 
