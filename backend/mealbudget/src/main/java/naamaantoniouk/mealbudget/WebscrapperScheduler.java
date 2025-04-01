@@ -27,7 +27,7 @@ public class WebscrapperScheduler {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
 //    @Scheduled(cron = "0 0 0 * * *")  // Runs at 00:00 every day
-    @Scheduled(cron = "0 57 14 * * *")
+    @Scheduled(cron = "0 20 11 * * *")
     public void runPythonScriptAndUpdateDB() {
         LocalDateTime startTime = LocalDateTime.now();
         LocalDateTime endTime;

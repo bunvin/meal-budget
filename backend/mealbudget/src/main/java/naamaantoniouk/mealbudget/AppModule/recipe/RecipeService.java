@@ -1,6 +1,8 @@
 package naamaantoniouk.mealbudget.AppModule.recipe;
 
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
@@ -15,4 +17,5 @@ public interface RecipeService {
     List<RecipeDTO>getAllRecipies() throws AppException;
 
     double calcTotalNIS(int recipeId) throws AppException;
+    Map<LocalDate, Double> getRecipePriceHistory(int recipeId) throws AppException;
 }

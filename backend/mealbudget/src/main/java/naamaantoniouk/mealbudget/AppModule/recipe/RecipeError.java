@@ -1,11 +1,12 @@
 package naamaantoniouk.mealbudget.AppModule.recipe;
 
+import naamaantoniouk.mealbudget.ErrorHandeling.AppException;
 import naamaantoniouk.mealbudget.ErrorHandeling.ErrorMessage;
 
 public enum RecipeError implements ErrorMessage{
 
-    RECIPE_NOT_FOUND(2001, "AppException: recipe not found"),
-    RECIPE_ALREADY_EXIST(2002, "AppException: recipe already exist");
+    RECIPE_NOT_FOUND(3001, "AppException: recipe ID {0} not found"),
+    RECIPE_ALREADY_EXIST(3002, "AppException: recipe ID {0} already in use");
 
     private final int code;
     private final String message;
@@ -23,6 +24,10 @@ public enum RecipeError implements ErrorMessage{
     @Override
     public String getMessage() {
         return message;
+    }
+
+    public AppException createException(Object... args) {
+        return new AppException(this, args);
     }
 
 }

@@ -1,6 +1,8 @@
 package naamaantoniouk.mealbudget.AppModule.recipe;
 
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -117,5 +119,12 @@ public class RecipeController {
     public ResponseEntity<Void> deleteIngredient(@PathVariable int id) throws AppException {
         recipeIngredientService.deleteRecipeIngredient(id);
         return ResponseEntity.noContent().build();
+    }
+
+    //GET RECIPE PRICE HISTORY
+    @GetMapping("/{id}/price-history")
+    public ResponseEntity<Map<LocalDate, Double>> getRecipePriceHistory(@PathVariable int id) throws AppException {
+        Map<LocalDate, Double> priceHistory = recipeService.getRecipePriceHistory(id);
+        return ResponseEntity.ok(priceHistory);
     }
 }
