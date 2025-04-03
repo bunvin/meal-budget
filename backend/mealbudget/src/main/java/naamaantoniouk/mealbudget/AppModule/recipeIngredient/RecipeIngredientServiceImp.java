@@ -22,10 +22,12 @@ public class RecipeIngredientServiceImp implements RecipeIngredientService {
     RecipeIngredientRepository ingredientRepository;
     @Autowired
     ModelMapper modelMapper;
+    @Autowired
     @Lazy
     RecipeServiceImp recipeService;
+    @Autowired
     @Lazy
-    ProductServiceImp ProductService;
+    ProductServiceImp productService;
 
     @Override
     public RecipeIngredientDTO addRecipeIngredient(int recipeId, int productId, int amount) throws AppException {
@@ -38,7 +40,7 @@ public class RecipeIngredientServiceImp implements RecipeIngredientService {
         if (this.ingredientRepository.existsByRecipe_IdAndProduct_Id(recipeId, productId)){
             throw new AppException(RecipeIngredientError.RECIPE_INGREDIENT_IN_RECIPE);
         }
-        ProductDTO productDTO = this.ProductService.getSingleProduct(productId);
+        ProductDTO productDTO = this.productService.getSingleProduct(productId);
         Product product = modelMapper.map(productDTO, Product.class);
 
         RecipeDTO recipeDTO = this.recipeService.getSingleRecipe(recipeId);

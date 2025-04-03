@@ -3,9 +3,10 @@ import './Menu.css';
 
 function Menu(): JSX.Element {
     return (
-        <div className= "Menu">
-            <NavLink className='styled-link' to='/main'>Main</NavLink>
-            <NavLink className='styled-link' to='products-list'>Products</NavLink>
+        <div className="Menu">
+            <NavLink className={({isActive}) => isActive ? 'styled-link active' : 'styled-link'} to='/main'>Main</NavLink>
+            <NavLink className={({isActive}) => isActive ? 'styled-link active' : 'styled-link'} to='/recipe-form'>Create Recipe</NavLink>
+            <NavLink className={({isActive}) => isActive ? 'styled-link active' : 'styled-link'} to='products-list'>Products</NavLink>
         </div>
     )
 }
